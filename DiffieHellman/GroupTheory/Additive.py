@@ -6,7 +6,7 @@ from json import loads, dumps
 from Crypto.Cipher import AES
 from hashlib import sha1
 import telnetlib
-import json
+import json 
 
 HOST = "socket.cryptohack.org"
 PORT = 13380
