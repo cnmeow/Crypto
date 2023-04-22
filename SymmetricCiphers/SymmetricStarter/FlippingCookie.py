@@ -3,7 +3,7 @@ import requests
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 
 cconfig = 'admin=True;'
-
+ 
 def getCookie():
     r = requests.get("http://aes.cryptohack.org/flipping_cookie/get_cookie/")
     cookie = r.json()["cookie"]
