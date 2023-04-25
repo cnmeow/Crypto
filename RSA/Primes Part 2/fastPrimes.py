@@ -1,0 +1,20 @@
+from Crypto.Util.number import inverse, long_to_bytes
+from Crypto.PublicKey import RSA
+
+
+n = '4ca21ede37e3d6a63bcee5f9120d0989f0143aae915302f346e8abbb840a72fb56d1487528ca75195b7832628389092c4e893fa4a6c9b0114266e805b12dc08d'
+N = int(n, 16)
+e = 0x10001
+c = '249d72cd1d287b1a15a3881f2bff5788bc4bf62c789f2df44d88aae805b54c9a94b8944c0ba798f70062b66160fee312b98879f1dd5d17b33095feb3c5830d28'
+C = int(c, 16)
+p = 51894141255108267693828471848483688186015845988173648228318286999011443419469
+q = 77342270837753916396402614215980760127245056504361515489809293852222206596161
+
+phi = (p - 1) * (q - 1)
+
+d = inverse(e, phi)
+key = RSA.construct((N, e, d))
+cipher = PKCS1_OAEP.new(key)
+
+m = cipher.decrypt(long_to_bytes(c))
+print(m)
