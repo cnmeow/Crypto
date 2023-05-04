@@ -8,10 +8,10 @@
 # Mô tả
 Bài tập **Crypto** bao gồm các folder sau:
 
-- **Bài 2 + Bài 3**: chứa mã nguồn để giải bài 2 và bài 3
-- **DiffieHellman**: chứa mã nguồn để giải bài 4, phần Diffie-Hellman
-- **General**: chứa mã nguồn để giải bài 4, phần General
-- **Introduction**: chứa mã nguồn để giải bài 4, phần Introduction
-- **Mathematics**: chứa mã nguồn để giải bài 4, phần Mathematics
-- **RSA**: chứa mã nguồn để giải bài 4, phần RSA
-- **SymmetricCiphers**: chứa mã nguồn để giải bài 4, phần SymmetricCiphers
+- **`Bài 2 + Bài 3`**: chứa mã nguồn để giải bài 2 và bài 3
+- **`DiffieHellman`**: chứa mã nguồn để giải bài 4, phần Diffie-Hellman
+- **`General`**: chứa mã nguồn để giải bài 4, phần General
+- **`Introduction`**: chứa mã nguồn để giải bài 4, phần Introduction
+- **`Mathematics`**: chứa mã nguồn để giải bài 4, phần Mathematics
+- **`RSA`**: chứa mã nguồn để giải bài 4, phần RSA
+- **`SymmetricCiphers`**: chứa mã nguồn để giải bài 4, phần SymmetricCiphers
